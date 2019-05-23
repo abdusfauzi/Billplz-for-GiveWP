@@ -248,6 +248,22 @@ if (!class_exists('Give_Billplz')):
 
       return $gateways;
     }
+
+    /**
+     * Allow this class and other classes to add notices.
+     *
+     * @since 1.0.1
+     *
+     * @param $slug
+     * @param $class
+     * @param $message
+     */
+    public function add_admin_notice( $slug, $class, $message ) {
+      $this->notices[ $slug ] = array(
+        'class'   => $class,
+        'message' => $message,
+      );
+    }
   }
 
   $GLOBALS['give_billplz'] = Give_Billplz::get_instance();
