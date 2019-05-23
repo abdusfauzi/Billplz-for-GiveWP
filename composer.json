@@ -1,0 +1,8 @@
+{
+    "name": "abdusfauzi/Billplz-for-GiveWP",
+    "version": "3.0.2",
+    "description": "Accept payment using Billplz by using this plugin.",
+    "keywords": ["wordpress", "give"],
+    "license": "GPL2",
+    "type": "wordpress-plugin"
+}
